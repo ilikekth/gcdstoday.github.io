@@ -2,11 +2,11 @@
 title:              "거창대성고등학교 청원 게시판"
 description:        "Designed by Semicolon 2020"
 author_name:        "Semicolon"
-logo_url:           http://gcdaeseong-h.gne.go.kr/upload/gcdaeseong-h/clubhmpg_10002693/img_3211ba66-deda-4b2c-a7bc-4a91436f27381592636464256.png
+logo_url:           https://avatars.githubusercontent.com/u/25861103?v=4
 
 # Site Settings
-url:                https://gcdstoday.github.io # main url
-baseurl:            /the-plain
+url:                "https://gcdstoday.github.io" # main url
+baseurl:            /
 permalink:          /:title # Post permalink
 timezone:           Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
