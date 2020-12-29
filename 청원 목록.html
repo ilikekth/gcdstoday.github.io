@@ -7,7 +7,7 @@ layout: default
 	
 	{% for post in site.posts %}
 		{% if post.status == "solved" %}
-			<h3 class="code">답변된 청원</h3>
+			<h3>답변된 청원</h3>
 			{% break %}
 		{% endif %}
 	{% endfor %}
@@ -20,7 +20,7 @@ layout: default
 						<span>{{ post.date | date: "%b %d" }}</span>
 					</div>
 					<div class="title">
-						<span style="border: 1px solid Gold; background-color: Green; color: white; padding: 2px; border-radius: 5px; margin: 3px auto;">답변완료</span>
+						<span style="border: 1px solid Green; background-color: Green; color: white; padding: 2px; border-radius: 5px; margin: 3px auto;">답변완료</span>
 						<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
 					</div>
 				</li>
@@ -30,7 +30,7 @@ layout: default
 	
 	{% for post in site.posts %}
 		{% if post.status == "unsolved" %}
-			<h3 class="code">진행 중인 청원</h3>
+			<h3>진행 중인 청원</h3>
 			{% break %}
 		{% endif %}
 	{% endfor %}
