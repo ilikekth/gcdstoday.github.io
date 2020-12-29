@@ -32,7 +32,7 @@ layout: default
 	
 	{% for post in site.posts %}
 		{% if post.status == "unsolved" %}
-			<h3>진행 중인 청원</h3>
+			<h3><br>진행 중인 청원</h3>
 			{% break %}
 		{% endif %}
 	{% endfor %}
@@ -55,7 +55,7 @@ layout: default
 	
 	{% for post in site.posts %}
 		{% if post.status == "tips" %}
-			<h3>대고 생존 팁</h3>
+			<h3><br>대고 생존 팁</h3>
 			{% break %}
 		{% endif %}
 	{% endfor %}
