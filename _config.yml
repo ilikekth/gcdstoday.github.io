@@ -43,3 +43,8 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+  -
+    scope:
+        path:      "files-emoticons"
+    values:
+        file-code: true
