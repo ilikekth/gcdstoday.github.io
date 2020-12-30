@@ -3,8 +3,9 @@ layout: page
 title: About
 ---
 
-Hello.
+거창대성고등학교 학생회의 직접 소통은
+**'학생이 물으면 학생회가 답한다'**
+는 철학을 지향합니다.
 
-This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
-
-**Less is more..**
+학교 현안에 관련하여 학생들 여러분의 목소리가 담긴 청원에
+학생회가 답하겠습니다.
