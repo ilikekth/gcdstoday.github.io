@@ -5,7 +5,7 @@ layout: default
 <section>
   
   <center><h3>대고티콘 다운로드</h3></center>
-  <center><h5><a href="files-emoticons/모두 다운로드.zip">[모두 다운로드]</a></h5>
+  <center><h5><a href="files-emoticons/모두 다운로드.zip">[모두 다운로드]</a></h5>
   <table>
       <thead>
          <tr>
@@ -15,7 +15,7 @@ layout: default
       </thead>
     
       <tbody>
-        {% assign files = site.static_files | where: "files-emoticons", true %}
+        {% assign files = site.static_files | where: "file-emoticons", true %}
         {% for myfile in files %}
           <tr>   
             <td><center>{{ myfile.name }}</center></td>
@@ -28,6 +28,6 @@ layout: default
 
 <section>
   <p><center> >> <a href="https://github.com/gcdstoday/gcds_emoticon"><b>깃허브</b> 바로가기</a> << </center></p>
-  <p><center>현재 바로보기를 할 시에 한글 인코딩이 깨져 보이는 현상이 있을 수 있습니다.</center></p>
+  <p><center>바로보기를 하면 한글 인코딩이 깨져 보이는 현상이 있을 수 있습니다.</center></p>
   <p><center>바로보기는 Google Chrome에서만 지원됩니다.</center></p>
 </section>
